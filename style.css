@@ -1,0 +1,124 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #d9d9d9;
+}
+p{
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	padding: 15px 0 15px 0;
+	background: #e6e6e6;
+	position: relative;
+	text-align: center;
+}
+.submit{
+	font-size: 20px;
+	padding: 10px;
+	background: #00cc7a;
+	color: white;
+	border-radius: 3px;
+	float: left;
+	margin: 0;
+	margin-top: -1px;
+}
+.submit:hover{
+	cursor: pointer;
+}
+.submit:active{
+	font-size: 20px;
+	margin-top: 1px;
+}
+.inputToDo{
+	height: 43px;
+	font-size: 20px;
+	border: none;
+	color: #d9d9d9;
+	padding-left: 10px;
+	float: left;
+	margin-right: 15px;
+}
+#submitToDo{
+	position: absolute;
+	margin: 17px auto 17px auto;
+	top: 0; right: 15px; bottom: 0;
+}
+.title{
+	color: #00cc7a;
+	font-size: 30px;
+	margin: 7px 0 7px 0;
+}
+.checkListBody{
+	height: 100%;
+	margin: 15px 15% 0 15%;
+	width: 70%;
+	background: white;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#Remove{
+	background: #ff8080;
+}
+#Add{
+	background: #00cc7a;
+}
+.space{
+	padding: 15px;
+	margin: 15px 15px 0 15px;
+	color: white;
+	border-radius: 3px;
+}
+.Messages{
+	position: fixed;
+	width: 15%;
+}
+.toDo{
+	width: 100%;
+	padding: 15px 0 1px 15px;
+	border-bottom: 1px solid #85adad;
+	font-size: 25px
+}
+.toDo:hover{
+	cursor: pointer;
+}
+.tabs{
+	margin: 15px 0 0 15px;
+	text-align: center;
+}
+.tabs p:hover{
+	cursor: pointer;
+	color: white;
+}
+.tabs p{
+	float: left;
+	position: absolute;
+	width: 33%;
+}
+.All{
+	left: 0;
+}
+.U{
+	margin: auto;
+	right: 0; left: 0;
+}
+.F{
+	right: 0;
+	color: white;
+}
+.warningU{
+	position: relative;
+	top: 10px;
+	text-align: center;
+	color: #d9d9d9;
+	display: none;
+}
+.delete{
+	color: #ff8080;
+}
+.Finished{
+	display: none;
+}
