@@ -15,7 +15,7 @@ $(document).ready(function(){
 			});
 		}
 		else{
-			alert("No input");
+			$(".noInput").fadeIn(500).delay(500).fadeOut(500);
 		}
 	});
 	$(".tabs p").click(function(){
