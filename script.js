@@ -29,20 +29,20 @@ $(document).ready(function(){
 		if($(this).attr('class') == "All"){
 			$(".Unfinished").show();
 			$(".Finished").show();
-			$(".tabs p").css("color", "black");
-			$(".All").css("color", "white");
+			$(".tabs p").css("background", "#e6e6e6");
+			$(".All").css("background", "#d9d9d9");
 		}
 		else if($(this).attr('class') == "U"){
 			$(".Unfinished").hide();
 			$(".Finished").show();
-			$(".tabs p").css("color", "black");
-			$(".U").css("color", "white");
+			$(".tabs p").css("background", "#e6e6e6");
+			$(".U").css("background", "#d9d9d9");
 		}
 		else{
 			$(".Unfinished").show();
 			$(".Finished").hide();
-			$(".tabs p").css("color", "black");
-			$(".F").css("color", "white");
+			$(".tabs p").css("background", "#e6e6e6");
+			$(".F").css("background", "#d9d9d9");
 		}
 		
 	});

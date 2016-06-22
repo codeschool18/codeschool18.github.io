@@ -1,16 +1,17 @@
 <!DOCTYPE>
 <html>
 <head>
-	<title>To-Do Check List</title>
+	<title>Check List</title>
+	<link rel="icon" type="image/jpg" href="icon.png" size="32x32">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="header">
-	<p class="title">To Do Check List</p>
+	<p class="title">Check List</p>
 	<div id="submitToDo">
-		<input class="inputToDo" type="text" value="Hello"></input>
+		<input class="inputToDo" type="text"></input>
 		<p class="submit">Add</p>
 	</div>
 </div>
@@ -20,9 +21,15 @@
 	<p class="space" id="Deleting">Delete: By clicking on X</p>
 	<p class="space" id="Add">Adding Items: Head to the menu, type, and click enter</p>
 	<div class="tabs">
-		<p class="All">All</p>
-		<p class="U">Done</p>
-		<p class="F">ToDo</p>
+		<div class="tabsP" id="All">
+			<p class="All">All</p>
+		</div>
+		<div class="tabsP" id="U">
+			<p class="U">Done</p>
+		</div>
+		<div class="tabsP" id="F">
+			<p class="F">ToDo</p>
+		</div>
 	</div>
 </div>
 <div class="checkListBody">
