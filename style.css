@@ -61,10 +61,13 @@ p{
 	overflow-y: scroll;
 }
 #Remove{
-	background: #ff8080;
+	background: #66d9ff;
 }
 #Add{
 	background: #00cc7a;
+}
+#Deleting{
+	background: #ff8080;
 }
 .space{
 	padding: 15px;
@@ -80,7 +83,6 @@ p{
 	width: 100%;
 	padding: 15px 0 1px 15px;
 	border-bottom: 1px solid #85adad;
-	font-size: 25px
 }
 .toDo:hover{
 	cursor: pointer;
@@ -118,6 +120,8 @@ p{
 }
 .delete{
 	color: #ff8080;
+	font-size: small;
+	padding-bottom: 25px;
 }
 .Finished{
 	display: none;
@@ -134,4 +138,8 @@ p{
 	margin: auto;
 	width: 80%;
 	z-index: 1;
+}
+.word{
+	margin-left: 5px;
+	font-size: 25px
 }
